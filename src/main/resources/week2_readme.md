@@ -1,14 +1,5 @@
-# 作业说明
+# 第二周作业说明
 
-## 第一周作业
-* 第2题：自定义Classloader代码：见[com.java.training.week1.ClassLoaderWork.java](..\java\com\java\training\week1\ClassLoaderWork.java)
-
-
-* 第3题：画图展示JVM内存参数：见[\work\1.3-jvm内存参数.png](\work\1.3-jvm内存参数.png)
-
-
-
-## 第二周作业
 * 第1题（选做）：使用GCLogAnalysis.java演练GC，在windows上，基于Xmx1g、Xms1g内存运行时如下：
   * Serial GC: 内存分配速率达到4.18 gb/sec，年轻代对象提升到老年代速率达到1.02 gb/sec，每次GC平均时间在32ms，总GC时间480ms，GC次数15
   * Parallel GC: 内存分配速率达到3.89 gb/sec，年轻代对象提升到老年代速率达到1.05 gb/sec，每次GC平均时间在21.7ms，总GC时间520ms，GC次数24
@@ -20,8 +11,7 @@
   * CMS GC: 最大可以到41个并发
   * G1 GC: 最大可以到50个并发
 
-
 * 第4题（必做）：不同 GC 和堆内存的总结：见[\week2\jvm总结.md](\work\2.6-jvm总结.md)
 
-
 * 第6题（必做）：写代码使用 HttpClient或OkHttp访问：见[com.java.training.week2.HttpClientWork.java](..\java\com\java\training\week2\HttpClientWork.java)
+
